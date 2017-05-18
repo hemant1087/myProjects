@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "95346968604",
+    "firebase_url": "https://bountyapp-7efa3.firebaseio.com",
+    "project_id": "bountyapp-7efa3",
+    "storage_bucket": "bountyapp-7efa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95346968604:android:7ace04a1764a5fca",
+        "android_client_info": {
+          "package_name": "com.hemant.bountyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95346968604-p5c694bnt16vv0shufl7m4dvkdldam4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuWBDfmK5-weVVZm88v-lNNHmWP-4_7Ak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

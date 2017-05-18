@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:background="@color/colorAccent"
+        android:scaleType="centerInside"
+        android:src="@drawable/sms_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/sms_image_view"
+        />
+    <TextView
+        android:id="@+id/activity_main_textview_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_permission"
+        android:layout_below="@+id/sms_image_view"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/large_text_size"
+        />
+
+    <Button
+        android:id="@+id/activity_main_button_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_continue"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+       android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorAccent"
+        android:onClick="onContinueClick" />
+
+</RelativeLayout>
