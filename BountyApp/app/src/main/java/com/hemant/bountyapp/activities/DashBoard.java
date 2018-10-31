@@ -48,7 +48,7 @@ public class DashBoard extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+        //this is a test comment
         int id = item.getItemId();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -65,7 +65,10 @@ public class DashBoard extends AppCompatActivity
 
     public void loadFragment(Fragment fragment) {
 
+
+
         if (fragment != null) {
+            // fragment change
 
             getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
 
